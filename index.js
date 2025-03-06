@@ -12,8 +12,14 @@ let scissorsBtn = document.getElementById("scissorsBtn");
 let computer;
 let result = document.getElementById("result");
 
+let playerChoiceImg = document.getElementById("playerChoiceImg");
+    
+
+
+
 
 rockBtn.onclick = function(){
+    playerChoiceImg.src = "IMAGES/ROCK.png"
     playerChoice.innerHTML = "You chose rock"
     computer = Math.floor(Math.random() * 3)
         if(computer == 0){
@@ -31,11 +37,13 @@ rockBtn.onclick = function(){
 }
 
 paperBtn.onclick = function(){
+    playerChoiceImg.src = "IMAGES/PAPER.png"
     playerChoice.innerHTML = "You chose paper"
     computer = Math.floor(Math.random() * 3)
         if(computer == 0){
             computerChoice.innerHTML = "Computer chose rock";
             result.innerHTML = "YOU WIN!"
+            
         }
         else if(computer == 1){
             computerChoice.innerHTML = "Computer chose paper";
@@ -48,6 +56,7 @@ paperBtn.onclick = function(){
 }
 
 scissorsBtn.onclick = function(){
+    playerChoiceImg.src = "IMAGES/SCISSORS.png"
     playerChoice.innerHTML = "You chose scissors"
     computer = Math.floor(Math.random() * 3)
         if(computer == 0){
