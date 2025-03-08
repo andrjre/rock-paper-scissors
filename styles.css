@@ -48,3 +48,10 @@ img{
     width:200px;
     height:auto;
 }
+
+img:hover{
+    width:300px;
+    height:300px;
+}
+
+/* sort out bug with button and image clash */
