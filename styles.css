@@ -18,8 +18,7 @@ h1{
     display:flex;
     justify-content: center;
     margin-bottom: 100px;
-    flex-shrink:0;
-    gap: 10px
+    gap: 20px;
 }
 
 .texts{
@@ -41,21 +40,28 @@ button{
     
 }
 
-/*rock button */
-
-.rock-button{
+.whole-button{
     transition:all ease-in-out .2s;
 }
 
-.rock-button:hover{
+.whole-button:hover{
     transform: scale(1.1);
 }
 
 #rockBtn:hover{
     background: rgb(101, 202, 172);
 }
+#scissorsBtn:hover{
+    background: rgb(101, 202, 172);
+}
+#paperBtn:hover{
+    background: rgb(101, 202, 172);
+}
 
-
+.content{
+    display: flex;
+    flex-direction: column;
+}
 
 
 img{
