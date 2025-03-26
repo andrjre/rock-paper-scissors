@@ -33,32 +33,35 @@ h1{
     text-align:center;
 }
 
-.button{
+button{
     font-size:40px;
     border-radius:20px;
     background-color:aquamarine;
     transition: all .2s ease-in-out;
+    
 }
 
-.button:hover{
-    background-color:rgb(36, 160, 119);
-    color:white;
-    width:300px;
-    height:300px;
-    transform: scale(1.1);
-    img{
-    width:300px;
-    height:300px;
-    transform: scale(1.1);
-    }
+/*rock button */
+
+.rock-button{
+    transition:all ease-in-out .2s;
 }
+
+.rock-button:hover{
+    transform: scale(1.1);
+}
+
+#rockBtn:hover{
+    background: rgb(101, 202, 172);
+}
+
+
+
 
 img{
     width:200px;
     height:auto;
 }
-
-
 
 .reset{
     display:flex;
