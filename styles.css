@@ -17,8 +17,8 @@ h1{
 .buttons{
     display:flex;
     justify-content: center;
-    margin-bottom: 100px;
-    gap: 20px;
+    align-items: center;
+    gap:20px;
 }
 
 .texts{
@@ -62,6 +62,15 @@ button{
     display: flex;
     flex-direction: column;
 }
+
+.score{
+font-size:40px;
+display:flex;
+justify-content: center;
+gap:50px;
+}
+
+
 
 
 img{
