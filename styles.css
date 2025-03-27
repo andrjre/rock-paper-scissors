@@ -1,7 +1,9 @@
 
 
 body{
-    background-color:rgb(238, 255, 214);
+    background-image:linear-gradient(rgb(65, 0, 65), black);
+    background-attachment:fixed;
+    color:white;
     font-family:sans-serif;
     box-sizing:border-box;
 }
@@ -35,8 +37,9 @@ h1{
 button{
     font-size:40px;
     border-radius:20px;
-    background-color:aquamarine;
+    background-color:rgb(134, 49, 130);
     transition: all .2s ease-in-out;
+    border-color:pink;
     
 }
 
@@ -49,13 +52,13 @@ button{
 }
 
 #rockBtn:hover{
-    background: rgb(101, 202, 172);
+    background: rgb(255, 179, 249);
 }
 #scissorsBtn:hover{
-    background: rgb(101, 202, 172);
+    background: rgb(255, 179, 249);
 }
 #paperBtn:hover{
-    background: rgb(101, 202, 172);
+    background: rgb(255, 179, 249);
 }
 
 .content{
