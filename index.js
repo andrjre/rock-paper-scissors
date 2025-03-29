@@ -39,7 +39,6 @@ rockBtn.onclick = function(){
             computerChoiceImg.src = "IMAGES/PAPERNEW.png"
             result.innerHTML = "YOU LOSE..."
             computerScoreNum = computerScoreNum + 1 ;
-            //figure out how to increase score//
         }
         else if (computer == 2){
             computerChoice.innerHTML = "Computer chose scissors";
